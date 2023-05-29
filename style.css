@@ -1,0 +1,77 @@
+.modal{
+    width: 500px;
+    position: relative;
+    background-color: white;
+    border: 2px solid grey;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: none;
+}
+.modal h2{
+    text-align: center;
+}
+
+.modal-btn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(53, 132, 221);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.modal-btn:hover{
+    background-color: rgb(39, 94, 158);
+}
+
+.close-btn{
+    border: none;
+    position: absolute;
+    padding: 5px;
+    right: 10px;
+    top:10px;
+    background-color:red;
+}
+
+.dark-back{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0, .8);
+    z-index: 100;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+.submit_btn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(221, 168, 53);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .3s
+}
+.submit_btn:hover{
+    background-color: rgb(231, 70, 196);
+}
+
+.number_btn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(53, 221, 103);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.number_btn:hover{
+    background-color: rgb(70, 159, 231);
+}
